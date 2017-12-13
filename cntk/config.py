@@ -26,7 +26,7 @@ __C.CNTK.USE_MEAN_GRADIENT = True
 __C.CNTK.FORCE_DETERMINISTIC = True
 __C.CNTK.FAST_MODE = False
 
-__C.CNTK.DATASET = "EY" # 
+__C.CNTK.DATASET = "eastcode_ocr" # 
 __C.CNTK.BASE_MODEL = "AlexNet" # "VGG16" or "AlexNet"
 __C.CNTK.CONV_BIAS_INIT = 0.0
 __C.CNTK.SIGMA_RPN_L1 = 3.0
@@ -69,7 +69,7 @@ __C.CNTK.DIMS_STREAM_NAME = 'dims'
 #
 # Data sets
 #
-if __C.CNTK.DATASET == "EY":
+if __C.CNTK.DATASET == "eastcode_ocr":
     __C.CNTK.MAP_FILE_PATH = "../dataset"
     __C.CNTK.CLASS_MAP_FILE = "class_map.txt"
     __C.CNTK.TRAIN_MAP_FILE = "train_img_file.txt"

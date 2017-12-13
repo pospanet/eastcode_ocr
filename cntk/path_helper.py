@@ -18,9 +18,9 @@ class UserDirectory:
         desktop = os.path.join("C:/Users", windowsUser, "Desktop")
 
         # Path for Images and boxe
-        imgDir = os.path.join("C:/Users", windowsUser, "Desktop/EY/dataset/missingLabels")
+        imgDir = os.path.join("C:/Users", windowsUser, "Desktop/eastcode_ocr/dataset/missingLabels")
         if not os.path.isdir(imgDir):
-            imgDir = os.path.join("C:/Users", windowsUser, "Projects/EY/dataset/missingLabels")
+            imgDir = os.path.join("C:/Users", windowsUser, "Projects/eastcode_ocr/dataset/missingLabels")
         return imgDir
 
     def getCroppedImgageDir():
@@ -32,9 +32,9 @@ class UserDirectory:
         desktop = os.path.join("C:/Users", windowsUser, "Desktop")
 
         # Path for Images and boxe
-        imgDir = os.path.join("C:/Users", windowsUser, "Desktop/EY/dataset/cropped")
+        imgDir = os.path.join("C:/Users", windowsUser, "Desktop/eastcode_ocr/dataset/cropped")
         if not os.path.isdir(imgDir):
-            imgDir = os.path.join("C:/Users", windowsUser, "Projects/EY/dataset/cropped")
+            imgDir = os.path.join("C:/Users", windowsUser, "Projects/eastcode_ocr/dataset/cropped")
         return imgDir
 
 def getFilesInDirectory(directory, postfix = ""):
